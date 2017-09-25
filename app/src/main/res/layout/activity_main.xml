@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/learn_to_read_sheet_music" />
+
+    <Button
+        android:id="@+id/button_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_headline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:text="@string/read" />
+
+    <TextView
+        android:id="@+id/textView_results1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_read"
+        android:text="@string/NoRecordYet" />
+
+    <Button
+        android:id="@+id/button_readAndListen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="@string/read_and_listen"
+        android:layout_below="@+id/textView_results1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView_result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_readAndListen"
+        android:text="@string/NoRecordYet" />
+
+    <Button
+        android:id="@+id/button_listen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_result2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/listen" />
+
+    <TextView
+        android:id="@+id/textView_result3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_listen"
+        android:text="@string/NoRecordYet" />
+
+</RelativeLayout>
